@@ -18,11 +18,11 @@ public class Ejercicio_2 : MonoBehaviour
     {
         if (producto1 + producto2 + producto3 > monto)
         {
-            Debug.Log("El precio de los 3 productos supera el monto que tienes. Faltan" + ((producto1 + producto2 + producto3) - monto));
+            Debug.Log("El precio de los 3 productos supera el monto que tienes. Faltan " + ((producto1 + producto2 + producto3) - monto));
         }
         else
         {
-            Debug.Log("El precio de los 3 productos alcanza con el monto que tienes. Sobran" + (monto - (producto1 + producto2 + producto3)));
+            Debug.Log("El precio de los 3 productos alcanza con el monto que tienes. Sobran " + (monto - (producto1 + producto2 + producto3)));
         }
     }
 
